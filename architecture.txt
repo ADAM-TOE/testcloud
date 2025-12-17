@@ -1,0 +1,232 @@
+🧠 Logical Architecture with Subnets and Communication Flow
+🔹 1. WebSubnet (User Interaction Layer)
+Services:
+
+Azure App Service: Hosts the frontend web app
+Azure Bot Service: Powers the chatbot interface
+Azure API Management: Secures and manages API calls
+Power BI Embedded: Visualizes neighborhood comparisons
+
+Communicates with:
+
+IntelligenceSubnet (two-way): Sends user queries to AI Foundry agents and receives responses
+SearchSubnet (one-way): Sends search queries via API Management
+MonitorSubnet (one-way): Sends telemetry and logs
+
+
+🔹 2. IntelligenceSubnet (Agent Orchestration Layer)
+Services:
+
+Azure AI Foundry: Hosts and orchestrates modular agents
+Azure OpenAI: Generates embeddings and natural language responses
+
+Communicates with:
+
+WebSubnet (two-way): Receives user queries and returns responses
+SearchSubnet (two-way): Sends vector queries and receives search results
+DataSubnet (one-way): Reads structured data for reasoning
+MonitorSubnet (one-way): Logs agent activity and performance
+
+
+🔹 3. SearchSubnet (Semantic Search Layer)
+Services:
+
+Azure AI Search: Indexes and retrieves semantically relevant data
+Vector Database (optional): Stores embeddings for similarity search
+
+Communicates with:
+
+IntelligenceSubnet (two-way): Accepts vector queries and returns results
+WebSubnet (one-way): Accepts search requests via API Management
+
+
+🔹 4. DataSubnet (Data Storage & Compute Layer)
+Services:
+
+Azure Blob Storage: Stores raw and processed real estate datasets
+Azure Synapse Analytics or Azure Databricks: Cleanses and scores data
+Azure SQL or Cosmos DB: Stores structured metadata and scoring outputs
+
+Communicates with:
+
+IntelligenceSubnet (one-way): Supplies data for agent reasoning
+SearchSubnet (one-way): Supplies data for indexing
+
+
+🔹 5. MonitorSubnet (Monitoring & Observability Layer)
+Services:
+
+Application Insights: Tracks user queries, agent performance, and errors
+Azure Monitor: Logs system health and telemetry across services
+
+Communicates with:
+
+All other subnets (one-way): Receives logs and telemetry
+
+
+🔐 Communication Summary
+
+
+NSG-------------------------------
+
+Here’s a **one-pager summary of NSG rules and considerations** for your architecture:
+
+***
+
+## **NSG Design for Multi-Subnet Architecture**
+
+### **Virtual Network**
+
+*   Address Space: `10.0.0.0/16`
+*   Subnets:
+    *   `WebSubnet` – `10.0.1.0/24`
+    *   `IntelligenceSubnet` – `10.0.2.0/24`
+    *   `SearchSubnet` – `10.0.3.0/24`
+    *   `DataSubnet` – `10.0.4.0/24`
+    *   `MonitorSubnet` – `10.0.5.0/27`
+
+***
+
+### **NSG Rules by Subnet**
+
+#### **WebSubnet**
+
+*   **Inbound:**
+    *   Allow HTTPS (443) from trusted sources (Front Door/WAF or specific IP ranges).
+    *   Deny all other inbound.
+*   **Outbound:**
+    *   Allow to IntelligenceSubnet (443).
+    *   Allow to SearchSubnet (443).
+    *   Allow to MonitorSubnet (443).
+*   **Why:** Restricts exposure to entry points; prevents lateral movement.
+
+***
+
+#### **IntelligenceSubnet**
+
+*   **Inbound:**
+    *   Allow HTTPS (443) from WebSubnet.
+    *   Allow HTTPS (443) from SearchSubnet.
+*   **Outbound:**
+    *   Allow to SearchSubnet (443).
+    *   Allow to DataSubnet (443).
+    *   Allow to MonitorSubnet (443).
+*   **Why:** Enables AI orchestration while blocking unnecessary inbound.
+
+***
+
+#### **SearchSubnet**
+
+*   **Inbound:**
+    *   Allow HTTPS (443) from IntelligenceSubnet.
+    *   Allow HTTPS (443) from WebSubnet (via API Management).
+*   **Outbound:**
+    *   Allow to DataSubnet (443).
+    *   Allow to MonitorSubnet (443).
+*   **Why:** Restricts access to indexing and query flows only.
+
+***
+
+#### **DataSubnet**
+
+*   **Inbound:**
+    *   Allow HTTPS (443) from IntelligenceSubnet and SearchSubnet.
+*   **Outbound:**
+    *   Allow to MonitorSubnet (443).
+    *   (Optional) Allow to IntelligenceSubnet/SearchSubnet if ETL jobs exist.
+*   **Why:** Keeps data tier isolated; only responds to requests.
+
+***
+
+#### **MonitorSubnet**
+
+*   **Inbound:**
+    *   Allow HTTPS (443) from all subnets for telemetry.
+*   **Outbound:**
+    *   Allow to Azure Monitor service tag.
+*   **Why:** Centralized logging; minimal outbound.
+
+***
+
+### **Service Tag Considerations**
+
+*   If you **restrict outbound traffic**, explicitly allow:
+    *   `AzureMonitor` (for telemetry)
+    *   `Storage` (if replication or backups)
+    *   `KeyVault` (for secrets)
+    *   `AzureFrontDoor.Backend` (if Front Door is used)
+*   NSGs do **not auto-assign service tag rules**—you must configure them.
+
+***
+
+### **Best Practices**
+
+*   Enable **NSG flow logs** for auditing.
+*   Combine NSGs with **Private Endpoints** for zero public exposure (future upgrade).
+*   Apply **deny all inbound** except required flows.
+*   Harden outbound by denying `0.0.0.0/0` and allowing only service tags + required subnets.
+
+***
+-----------------------------------------------------------
+Service Tag Considerations
+
+If you restrict outbound traffic, explicitly allow:
+
+AzureMonitor (for telemetry)
+Storage (if replication or backups)
+KeyVault (for secrets)
+AzureFrontDoor.Backend (if Front Door is used)
+
+
+NSGs do not auto-assign service tag rules—you must configure them.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From → ToDirectionPurposeWebSubnet → IntelligenceSubnetTwo-waySend user queries, receive responsesWebSubnet → SearchSubnetOne-waySend search queriesWebSubnet → MonitorSubnetOne-waySend telemetryIntelligenceSubnet → SearchSubnetTwo-wayVector search and resultsIntelligenceSubnet → DataSubnetOne-wayRead structured dataIntelligenceSubnet → MonitorSubnetOne-wayLog agent activitySearchSubnet → DataSubnetOne-wayIndex dataAll → MonitorSubnetOne-wayCentralized logging and monitoring

@@ -1,0 +1,59 @@
+Now, here are the manual steps to deploy to Azure:
+
+Go to the Azure Portal (https://portal.azure.com)
+
+Click "Create a resource"
+
+Search for and select "Static Web App"
+
+Click "Create"
+
+Fill in the basics:
+
+Subscription: Select your subscription
+Resource Group: Create new or select existing
+Name: "marketlens-app" (or your preferred name)
+Hosting Plan: Free
+Region: Select the closest to you
+Source: GitHub
+Sign in to GitHub and select:
+Organization: bmagic4life
+Repository: T20-Housing-Project
+Branch: main
+In the Build Details:
+
+Build Presets: Select "React"
+App location: "/my-react-app"
+Api location: Leave empty (for now)
+Output location: "dist"
+Click "Review + create" and then "Create"
+
+For the AI Services:
+
+Create Azure OpenAI Service:
+
+Go to Azure Portal
+Create a resource
+Search for "OpenAI"
+Create new OpenAI service
+Select region and pricing tier
+Deploy GPT-4 model
+Create Azure AI Search:
+
+Go to Azure Portal
+Create a resource
+Search for "Azure AI Search"
+Create new search service
+Select pricing tier (Free is good for testing)
+Create Azure Blob Storage:
+
+Go to Azure Portal
+Create a resource
+Search for "Storage account"
+Create new storage account
+Select performance and redundancy options
+After creating these services, you'll need to:
+
+Get the connection strings and API keys from each service
+Create a configuration in the Azure Static Web App to store these securely
+Update your application code to use these services

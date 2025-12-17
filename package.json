@@ -1,0 +1,10 @@
+{
+  "name": "t20-housing-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install": "cd my-react-app && npm install",
+    "build": "cd my-react-app && npm run build",
+    "dev": "cd my-react-app && npm run dev"
+  }
+}

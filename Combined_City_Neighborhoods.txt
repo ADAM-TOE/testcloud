@@ -1,0 +1,899 @@
+
+City: Houston
+Neighborhood: Montrose
+DistrictID: 1
+Population: 32211
+MedianAge: 35.0
+RaceDist: White:53%; Hispanic:29%; Black:7%; Asian:19%; Other:4%
+Education_HighSchool+: 90%; Bachelor+: 78%
+MedianHHIncome: $115021
+MedianHomeValue: $909233
+GrossRent_Median: $1417
+HomeownershipRate: 55%
+Crime_AnnualCounts: {Murder:3; Assault:200; Theft:1076}
+TransitStops_Bus: 34; Rail/Subway: 6
+AvgCommuteMin: 33
+SchoolRating_GreatSchools: 6.5
+DistrictSchoolRating: D
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Montrose
+GeneralDescription: Montrose is a vibrant neighborhood in Houston known for its unique culture, amenities, and lifestyle.
+
+
+City: Houston
+Neighborhood: Midtown
+DistrictID: 2
+Population: 74901
+MedianAge: 35.7
+RaceDist: White:50%; Hispanic:23%; Black:6%; Asian:15%; Other:9%
+Education_HighSchool+: 92%; Bachelor+: 37%
+MedianHHIncome: $119066
+MedianHomeValue: $160771
+GrossRent_Median: $1672
+HomeownershipRate: 73%
+Crime_AnnualCounts: {Murder:10; Assault:74; Theft:917}
+TransitStops_Bus: 79; Rail/Subway: 2
+AvgCommuteMin: 42
+SchoolRating_GreatSchools: 6.2
+DistrictSchoolRating: B
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Midtown
+GeneralDescription: Midtown is a vibrant neighborhood in Houston known for its unique culture, amenities, and lifestyle.
+
+
+City: Houston
+Neighborhood: Downtown
+DistrictID: 3
+Population: 29541
+MedianAge: 30.9
+RaceDist: White:67%; Hispanic:14%; Black:21%; Asian:7%; Other:9%
+Education_HighSchool+: 87%; Bachelor+: 40%
+MedianHHIncome: $112310
+MedianHomeValue: $714903
+GrossRent_Median: $2885
+HomeownershipRate: 54%
+Crime_AnnualCounts: {Murder:6; Assault:223; Theft:315}
+TransitStops_Bus: 43; Rail/Subway: 13
+AvgCommuteMin: 47
+SchoolRating_GreatSchools: 8.5
+DistrictSchoolRating: A
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Downtown
+GeneralDescription: Downtown is a vibrant neighborhood in Houston known for its unique culture, amenities, and lifestyle.
+
+
+City: Houston
+Neighborhood: The Heights
+DistrictID: 4
+Population: 23223
+MedianAge: 29.5
+RaceDist: White:59%; Hispanic:11%; Black:13%; Asian:18%; Other:5%
+Education_HighSchool+: 81%; Bachelor+: 32%
+MedianHHIncome: $140044
+MedianHomeValue: $895542
+GrossRent_Median: $3090
+HomeownershipRate: 65%
+Crime_AnnualCounts: {Murder:4; Assault:52; Theft:1310}
+TransitStops_Bus: 39; Rail/Subway: 11
+AvgCommuteMin: 31
+SchoolRating_GreatSchools: 5.6
+DistrictSchoolRating: A
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in The Heights
+GeneralDescription: The Heights is a vibrant neighborhood in Houston known for its unique culture, amenities, and lifestyle.
+
+
+City: Houston
+Neighborhood: Museum District
+DistrictID: 5
+Population: 46457
+MedianAge: 40.6
+RaceDist: White:36%; Hispanic:11%; Black:22%; Asian:5%; Other:4%
+Education_HighSchool+: 95%; Bachelor+: 70%
+MedianHHIncome: $143886
+MedianHomeValue: $371979
+GrossRent_Median: $2362
+HomeownershipRate: 30%
+Crime_AnnualCounts: {Murder:10; Assault:260; Theft:886}
+TransitStops_Bus: 70; Rail/Subway: 14
+AvgCommuteMin: 28
+SchoolRating_GreatSchools: 6.9
+DistrictSchoolRating: B
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Museum District
+GeneralDescription: Museum District is a vibrant neighborhood in Houston known for its unique culture, amenities, and lifestyle.
+
+
+City: Houston
+Neighborhood: Greenway/Upper Kirby
+DistrictID: 6
+Population: 52914
+MedianAge: 36.3
+RaceDist: White:57%; Hispanic:30%; Black:25%; Asian:6%; Other:2%
+Education_HighSchool+: 90%; Bachelor+: 50%
+MedianHHIncome: $124058
+MedianHomeValue: $401562
+GrossRent_Median: $1512
+HomeownershipRate: 66%
+Crime_AnnualCounts: {Murder:1; Assault:255; Theft:1326}
+TransitStops_Bus: 22; Rail/Subway: 1
+AvgCommuteMin: 40
+SchoolRating_GreatSchools: 6.2
+DistrictSchoolRating: D
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Greenway/Upper Kirby
+GeneralDescription: Greenway/Upper Kirby is a vibrant neighborhood in Houston known for its unique culture, amenities, and lifestyle.
+
+
+City: Houston
+Neighborhood: Fourth Ward
+DistrictID: 7
+Population: 20433
+MedianAge: 44.2
+RaceDist: White:38%; Hispanic:30%; Black:30%; Asian:16%; Other:2%
+Education_HighSchool+: 80%; Bachelor+: 75%
+MedianHHIncome: $81711
+MedianHomeValue: $379154
+GrossRent_Median: $1279
+HomeownershipRate: 72%
+Crime_AnnualCounts: {Murder:4; Assault:267; Theft:418}
+TransitStops_Bus: 96; Rail/Subway: 4
+AvgCommuteMin: 41
+SchoolRating_GreatSchools: 7.9
+DistrictSchoolRating: C
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Fourth Ward
+GeneralDescription: Fourth Ward is a vibrant neighborhood in Houston known for its unique culture, amenities, and lifestyle.
+
+
+City: Houston
+Neighborhood: Rice Village
+DistrictID: 8
+Population: 46233
+MedianAge: 28.8
+RaceDist: White:39%; Hispanic:34%; Black:9%; Asian:19%; Other:7%
+Education_HighSchool+: 80%; Bachelor+: 40%
+MedianHHIncome: $102759
+MedianHomeValue: $614815
+GrossRent_Median: $3073
+HomeownershipRate: 38%
+Crime_AnnualCounts: {Murder:7; Assault:127; Theft:976}
+TransitStops_Bus: 44; Rail/Subway: 18
+AvgCommuteMin: 42
+SchoolRating_GreatSchools: 7.1
+DistrictSchoolRating: C
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Rice Village
+GeneralDescription: Rice Village is a vibrant neighborhood in Houston known for its unique culture, amenities, and lifestyle.
+
+
+City: Houston
+Neighborhood: West University
+DistrictID: 9
+Population: 34051
+MedianAge: 32.6
+RaceDist: White:52%; Hispanic:13%; Black:14%; Asian:12%; Other:4%
+Education_HighSchool+: 96%; Bachelor+: 33%
+MedianHHIncome: $145403
+MedianHomeValue: $399723
+GrossRent_Median: $1499
+HomeownershipRate: 62%
+Crime_AnnualCounts: {Murder:2; Assault:256; Theft:292}
+TransitStops_Bus: 61; Rail/Subway: 14
+AvgCommuteMin: 45
+SchoolRating_GreatSchools: 6.9
+DistrictSchoolRating: A
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in West University
+GeneralDescription: West University is a vibrant neighborhood in Houston known for its unique culture, amenities, and lifestyle.
+
+
+City: Houston
+Neighborhood: Bellaire
+DistrictID: 10
+Population: 56933
+MedianAge: 43.4
+RaceDist: White:48%; Hispanic:18%; Black:6%; Asian:15%; Other:3%
+Education_HighSchool+: 89%; Bachelor+: 74%
+MedianHHIncome: $104169
+MedianHomeValue: $300391
+GrossRent_Median: $3399
+HomeownershipRate: 31%
+Crime_AnnualCounts: {Murder:6; Assault:79; Theft:835}
+TransitStops_Bus: 52; Rail/Subway: 5
+AvgCommuteMin: 42
+SchoolRating_GreatSchools: 8.2
+DistrictSchoolRating: A
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Bellaire
+GeneralDescription: Bellaire is a vibrant neighborhood in Houston known for its unique culture, amenities, and lifestyle.
+
+
+City: Houston
+Neighborhood: EaDo (East Downtown)
+DistrictID: 11
+Population: 64018
+MedianAge: 41.8
+RaceDist: White:62%; Hispanic:39%; Black:28%; Asian:15%; Other:7%
+Education_HighSchool+: 97%; Bachelor+: 56%
+MedianHHIncome: $43805
+MedianHomeValue: $532022
+GrossRent_Median: $1735
+HomeownershipRate: 60%
+Crime_AnnualCounts: {Murder:9; Assault:186; Theft:1368}
+TransitStops_Bus: 83; Rail/Subway: 11
+AvgCommuteMin: 27
+SchoolRating_GreatSchools: 6.9
+DistrictSchoolRating: D
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in EaDo (East Downtown)
+GeneralDescription: EaDo (East Downtown) is a vibrant neighborhood in Houston known for its unique culture, amenities, and lifestyle.
+
+
+City: Houston
+Neighborhood: River Oaks
+DistrictID: 12
+Population: 79454
+MedianAge: 32.4
+RaceDist: White:51%; Hispanic:24%; Black:5%; Asian:7%; Other:6%
+Education_HighSchool+: 96%; Bachelor+: 47%
+MedianHHIncome: $54483
+MedianHomeValue: $348477
+GrossRent_Median: $2521
+HomeownershipRate: 79%
+Crime_AnnualCounts: {Murder:3; Assault:165; Theft:1244}
+TransitStops_Bus: 56; Rail/Subway: 4
+AvgCommuteMin: 31
+SchoolRating_GreatSchools: 8.5
+DistrictSchoolRating: D
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in River Oaks
+GeneralDescription: River Oaks is a vibrant neighborhood in Houston known for its unique culture, amenities, and lifestyle.
+
+
+City: Houston
+Neighborhood: Spring Branch
+DistrictID: 13
+Population: 51896
+MedianAge: 31.6
+RaceDist: White:70%; Hispanic:34%; Black:22%; Asian:6%; Other:3%
+Education_HighSchool+: 96%; Bachelor+: 36%
+MedianHHIncome: $77596
+MedianHomeValue: $371654
+GrossRent_Median: $2004
+HomeownershipRate: 34%
+Crime_AnnualCounts: {Murder:5; Assault:130; Theft:1443}
+TransitStops_Bus: 60; Rail/Subway: 11
+AvgCommuteMin: 21
+SchoolRating_GreatSchools: 9.3
+DistrictSchoolRating: A
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Spring Branch
+GeneralDescription: Spring Branch is a vibrant neighborhood in Houston known for its unique culture, amenities, and lifestyle.
+
+
+City: Houston
+Neighborhood: Galleria/Uptown
+DistrictID: 14
+Population: 85274
+MedianAge: 40.6
+RaceDist: White:51%; Hispanic:39%; Black:9%; Asian:11%; Other:1%
+Education_HighSchool+: 86%; Bachelor+: 76%
+MedianHHIncome: $119206
+MedianHomeValue: $708638
+GrossRent_Median: $2902
+HomeownershipRate: 29%
+Crime_AnnualCounts: {Murder:10; Assault:290; Theft:695}
+TransitStops_Bus: 69; Rail/Subway: 17
+AvgCommuteMin: 23
+SchoolRating_GreatSchools: 5.0
+DistrictSchoolRating: C
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Galleria/Uptown
+GeneralDescription: Galleria/Uptown is a vibrant neighborhood in Houston known for its unique culture, amenities, and lifestyle.
+
+
+City: Houston
+Neighborhood: Washington Corridor
+DistrictID: 15
+Population: 17768
+MedianAge: 43.2
+RaceDist: White:66%; Hispanic:34%; Black:11%; Asian:6%; Other:8%
+Education_HighSchool+: 85%; Bachelor+: 53%
+MedianHHIncome: $124733
+MedianHomeValue: $521737
+GrossRent_Median: $1586
+HomeownershipRate: 29%
+Crime_AnnualCounts: {Murder:2; Assault:81; Theft:498}
+TransitStops_Bus: 13; Rail/Subway: 15
+AvgCommuteMin: 47
+SchoolRating_GreatSchools: 9.2
+DistrictSchoolRating: C
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Washington Corridor
+GeneralDescription: Washington Corridor is a vibrant neighborhood in Houston known for its unique culture, amenities, and lifestyle.
+
+
+City: Chicago
+Neighborhood: Lincoln Park
+DistrictID: 1
+Population: 17022
+MedianAge: 43.9
+RaceDist: White:33%; Hispanic:20%; Black:12%; Asian:13%; Other:4%
+Education_HighSchool+: 85%; Bachelor+: 69%
+MedianHHIncome: $86922
+MedianHomeValue: $492694
+GrossRent_Median: $2182
+HomeownershipRate: 68%
+Crime_AnnualCounts: {Murder:2; Assault:100; Theft:414}
+TransitStops_Bus: 56; Rail/Subway: 1
+AvgCommuteMin: 25
+SchoolRating_GreatSchools: 7.1
+DistrictSchoolRating: B
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Lincoln Park
+GeneralDescription: Lincoln Park is a vibrant neighborhood in Chicago known for its unique culture, amenities, and lifestyle.
+
+
+City: Chicago
+Neighborhood: Hyde Park
+DistrictID: 2
+Population: 37763
+MedianAge: 35.4
+RaceDist: White:51%; Hispanic:22%; Black:28%; Asian:8%; Other:1%
+Education_HighSchool+: 83%; Bachelor+: 67%
+MedianHHIncome: $126667
+MedianHomeValue: $385252
+GrossRent_Median: $1409
+HomeownershipRate: 33%
+Crime_AnnualCounts: {Murder:4; Assault:50; Theft:301}
+TransitStops_Bus: 54; Rail/Subway: 7
+AvgCommuteMin: 28
+SchoolRating_GreatSchools: 8.4
+DistrictSchoolRating: D
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Hyde Park
+GeneralDescription: Hyde Park is a vibrant neighborhood in Chicago known for its unique culture, amenities, and lifestyle.
+
+
+City: Chicago
+Neighborhood: Lakeview
+DistrictID: 3
+Population: 47200
+MedianAge: 33.7
+RaceDist: White:66%; Hispanic:36%; Black:13%; Asian:12%; Other:10%
+Education_HighSchool+: 90%; Bachelor+: 71%
+MedianHHIncome: $63290
+MedianHomeValue: $923222
+GrossRent_Median: $3280
+HomeownershipRate: 26%
+Crime_AnnualCounts: {Murder:8; Assault:73; Theft:641}
+TransitStops_Bus: 43; Rail/Subway: 17
+AvgCommuteMin: 20
+SchoolRating_GreatSchools: 9.4
+DistrictSchoolRating: B
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Lakeview
+GeneralDescription: Lakeview is a vibrant neighborhood in Chicago known for its unique culture, amenities, and lifestyle.
+
+
+City: Chicago
+Neighborhood: Logan Square
+DistrictID: 4
+Population: 56855
+MedianAge: 38.9
+RaceDist: White:64%; Hispanic:32%; Black:7%; Asian:17%; Other:10%
+Education_HighSchool+: 90%; Bachelor+: 71%
+MedianHHIncome: $131372
+MedianHomeValue: $433870
+GrossRent_Median: $1612
+HomeownershipRate: 30%
+Crime_AnnualCounts: {Murder:0; Assault:234; Theft:613}
+TransitStops_Bus: 22; Rail/Subway: 2
+AvgCommuteMin: 31
+SchoolRating_GreatSchools: 8.4
+DistrictSchoolRating: B
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Logan Square
+GeneralDescription: Logan Square is a vibrant neighborhood in Chicago known for its unique culture, amenities, and lifestyle.
+
+
+City: Chicago
+Neighborhood: West Loop
+DistrictID: 5
+Population: 56847
+MedianAge: 41.9
+RaceDist: White:47%; Hispanic:10%; Black:14%; Asian:12%; Other:9%
+Education_HighSchool+: 80%; Bachelor+: 76%
+MedianHHIncome: $113712
+MedianHomeValue: $745908
+GrossRent_Median: $2983
+HomeownershipRate: 43%
+Crime_AnnualCounts: {Murder:8; Assault:214; Theft:1428}
+TransitStops_Bus: 32; Rail/Subway: 18
+AvgCommuteMin: 28
+SchoolRating_GreatSchools: 9.3
+DistrictSchoolRating: B
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in West Loop
+GeneralDescription: West Loop is a vibrant neighborhood in Chicago known for its unique culture, amenities, and lifestyle.
+
+
+City: Chicago
+Neighborhood: Wicker Park
+DistrictID: 6
+Population: 69436
+MedianAge: 34.6
+RaceDist: White:51%; Hispanic:38%; Black:11%; Asian:20%; Other:8%
+Education_HighSchool+: 97%; Bachelor+: 54%
+MedianHHIncome: $100283
+MedianHomeValue: $328537
+GrossRent_Median: $1651
+HomeownershipRate: 80%
+Crime_AnnualCounts: {Murder:8; Assault:157; Theft:1157}
+TransitStops_Bus: 73; Rail/Subway: 3
+AvgCommuteMin: 46
+SchoolRating_GreatSchools: 9.4
+DistrictSchoolRating: C
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Wicker Park
+GeneralDescription: Wicker Park is a vibrant neighborhood in Chicago known for its unique culture, amenities, and lifestyle.
+
+
+City: Chicago
+Neighborhood: Gold Coast
+DistrictID: 7
+Population: 79607
+MedianAge: 34.6
+RaceDist: White:60%; Hispanic:21%; Black:24%; Asian:20%; Other:3%
+Education_HighSchool+: 83%; Bachelor+: 44%
+MedianHHIncome: $67396
+MedianHomeValue: $371084
+GrossRent_Median: $3279
+HomeownershipRate: 54%
+Crime_AnnualCounts: {Murder:10; Assault:280; Theft:1320}
+TransitStops_Bus: 60; Rail/Subway: 16
+AvgCommuteMin: 50
+SchoolRating_GreatSchools: 7.8
+DistrictSchoolRating: B
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Gold Coast
+GeneralDescription: Gold Coast is a vibrant neighborhood in Chicago known for its unique culture, amenities, and lifestyle.
+
+
+City: Chicago
+Neighborhood: South Loop
+DistrictID: 8
+Population: 60959
+MedianAge: 42.8
+RaceDist: White:48%; Hispanic:28%; Black:28%; Asian:12%; Other:7%
+Education_HighSchool+: 82%; Bachelor+: 63%
+MedianHHIncome: $78096
+MedianHomeValue: $661682
+GrossRent_Median: $2998
+HomeownershipRate: 69%
+Crime_AnnualCounts: {Murder:0; Assault:237; Theft:1252}
+TransitStops_Bus: 12; Rail/Subway: 20
+AvgCommuteMin: 20
+SchoolRating_GreatSchools: 7.6
+DistrictSchoolRating: D
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in South Loop
+GeneralDescription: South Loop is a vibrant neighborhood in Chicago known for its unique culture, amenities, and lifestyle.
+
+
+City: Chicago
+Neighborhood: Bridgeport
+DistrictID: 9
+Population: 32127
+MedianAge: 31.7
+RaceDist: White:55%; Hispanic:11%; Black:15%; Asian:11%; Other:9%
+Education_HighSchool+: 85%; Bachelor+: 71%
+MedianHHIncome: $57407
+MedianHomeValue: $237620
+GrossRent_Median: $1534
+HomeownershipRate: 66%
+Crime_AnnualCounts: {Murder:4; Assault:127; Theft:328}
+TransitStops_Bus: 71; Rail/Subway: 6
+AvgCommuteMin: 36
+SchoolRating_GreatSchools: 7.1
+DistrictSchoolRating: A
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Bridgeport
+GeneralDescription: Bridgeport is a vibrant neighborhood in Chicago known for its unique culture, amenities, and lifestyle.
+
+
+City: Chicago
+Neighborhood: Andersonville
+DistrictID: 10
+Population: 70856
+MedianAge: 37.0
+RaceDist: White:61%; Hispanic:23%; Black:11%; Asian:15%; Other:7%
+Education_HighSchool+: 98%; Bachelor+: 33%
+MedianHHIncome: $73914
+MedianHomeValue: $646381
+GrossRent_Median: $3043
+HomeownershipRate: 40%
+Crime_AnnualCounts: {Murder:7; Assault:159; Theft:1113}
+TransitStops_Bus: 29; Rail/Subway: 4
+AvgCommuteMin: 20
+SchoolRating_GreatSchools: 6.1
+DistrictSchoolRating: B
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Andersonville
+GeneralDescription: Andersonville is a vibrant neighborhood in Chicago known for its unique culture, amenities, and lifestyle.
+
+
+City: Chicago
+Neighborhood: Old Town
+DistrictID: 11
+Population: 45588
+MedianAge: 33.8
+RaceDist: White:58%; Hispanic:37%; Black:17%; Asian:9%; Other:6%
+Education_HighSchool+: 88%; Bachelor+: 68%
+MedianHHIncome: $66696
+MedianHomeValue: $332104
+GrossRent_Median: $2064
+HomeownershipRate: 49%
+Crime_AnnualCounts: {Murder:0; Assault:279; Theft:245}
+TransitStops_Bus: 31; Rail/Subway: 4
+AvgCommuteMin: 29
+SchoolRating_GreatSchools: 6.5
+DistrictSchoolRating: C
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Old Town
+GeneralDescription: Old Town is a vibrant neighborhood in Chicago known for its unique culture, amenities, and lifestyle.
+
+
+City: Chicago
+Neighborhood: Chinatown
+DistrictID: 12
+Population: 31427
+MedianAge: 28.7
+RaceDist: White:60%; Hispanic:18%; Black:18%; Asian:7%; Other:10%
+Education_HighSchool+: 93%; Bachelor+: 56%
+MedianHHIncome: $136558
+MedianHomeValue: $310565
+GrossRent_Median: $1090
+HomeownershipRate: 59%
+Crime_AnnualCounts: {Murder:9; Assault:191; Theft:1108}
+TransitStops_Bus: 13; Rail/Subway: 12
+AvgCommuteMin: 30
+SchoolRating_GreatSchools: 5.4
+DistrictSchoolRating: A
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Chinatown
+GeneralDescription: Chinatown is a vibrant neighborhood in Chicago known for its unique culture, amenities, and lifestyle.
+
+
+City: Chicago
+Neighborhood: Beverly
+DistrictID: 13
+Population: 75831
+MedianAge: 43.1
+RaceDist: White:62%; Hispanic:14%; Black:15%; Asian:5%; Other:6%
+Education_HighSchool+: 97%; Bachelor+: 70%
+MedianHHIncome: $55729
+MedianHomeValue: $704601
+GrossRent_Median: $3153
+HomeownershipRate: 57%
+Crime_AnnualCounts: {Murder:6; Assault:80; Theft:1373}
+TransitStops_Bus: 11; Rail/Subway: 9
+AvgCommuteMin: 40
+SchoolRating_GreatSchools: 9.2
+DistrictSchoolRating: B
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Beverly
+GeneralDescription: Beverly is a vibrant neighborhood in Chicago known for its unique culture, amenities, and lifestyle.
+
+
+City: Chicago
+Neighborhood: Avondale
+DistrictID: 14
+Population: 56747
+MedianAge: 40.7
+RaceDist: White:57%; Hispanic:11%; Black:29%; Asian:14%; Other:4%
+Education_HighSchool+: 81%; Bachelor+: 42%
+MedianHHIncome: $66443
+MedianHomeValue: $283702
+GrossRent_Median: $2363
+HomeownershipRate: 47%
+Crime_AnnualCounts: {Murder:4; Assault:101; Theft:284}
+TransitStops_Bus: 93; Rail/Subway: 11
+AvgCommuteMin: 23
+SchoolRating_GreatSchools: 5.9
+DistrictSchoolRating: C
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Avondale
+GeneralDescription: Avondale is a vibrant neighborhood in Chicago known for its unique culture, amenities, and lifestyle.
+
+
+City: Chicago
+Neighborhood: Edgewater
+DistrictID: 15
+Population: 33389
+MedianAge: 35.4
+RaceDist: White:57%; Hispanic:34%; Black:22%; Asian:13%; Other:4%
+Education_HighSchool+: 97%; Bachelor+: 55%
+MedianHHIncome: $104439
+MedianHomeValue: $448733
+GrossRent_Median: $3226
+HomeownershipRate: 62%
+Crime_AnnualCounts: {Murder:1; Assault:59; Theft:722}
+TransitStops_Bus: 15; Rail/Subway: 13
+AvgCommuteMin: 27
+SchoolRating_GreatSchools: 7.8
+DistrictSchoolRating: C
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Edgewater
+GeneralDescription: Edgewater is a vibrant neighborhood in Chicago known for its unique culture, amenities, and lifestyle.
+
+
+City: New York City
+Neighborhood: Upper East Side
+DistrictID: 1
+Population: 51424
+MedianAge: 28.3
+RaceDist: White:39%; Hispanic:34%; Black:7%; Asian:11%; Other:6%
+Education_HighSchool+: 86%; Bachelor+: 56%
+MedianHHIncome: $82783
+MedianHomeValue: $329415
+GrossRent_Median: $1542
+HomeownershipRate: 50%
+Crime_AnnualCounts: {Murder:7; Assault:122; Theft:336}
+TransitStops_Bus: 36; Rail/Subway: 0
+AvgCommuteMin: 44
+SchoolRating_GreatSchools: 6.1
+DistrictSchoolRating: A
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Upper East Side
+GeneralDescription: Upper East Side is a vibrant neighborhood in New York City known for its unique culture, amenities, and lifestyle.
+
+
+City: New York City
+Neighborhood: Harlem
+DistrictID: 2
+Population: 40675
+MedianAge: 32.9
+RaceDist: White:58%; Hispanic:31%; Black:28%; Asian:18%; Other:9%
+Education_HighSchool+: 96%; Bachelor+: 54%
+MedianHHIncome: $139208
+MedianHomeValue: $338860
+GrossRent_Median: $2015
+HomeownershipRate: 28%
+Crime_AnnualCounts: {Murder:3; Assault:240; Theft:1163}
+TransitStops_Bus: 38; Rail/Subway: 0
+AvgCommuteMin: 26
+SchoolRating_GreatSchools: 8.1
+DistrictSchoolRating: A
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Harlem
+GeneralDescription: Harlem is a vibrant neighborhood in New York City known for its unique culture, amenities, and lifestyle.
+
+
+City: New York City
+Neighborhood: Chelsea
+DistrictID: 3
+Population: 86333
+MedianAge: 35.8
+RaceDist: White:66%; Hispanic:14%; Black:15%; Asian:10%; Other:5%
+Education_HighSchool+: 90%; Bachelor+: 80%
+MedianHHIncome: $123238
+MedianHomeValue: $542815
+GrossRent_Median: $3118
+HomeownershipRate: 75%
+Crime_AnnualCounts: {Murder:7; Assault:239; Theft:212}
+TransitStops_Bus: 89; Rail/Subway: 1
+AvgCommuteMin: 34
+SchoolRating_GreatSchools: 6.8
+DistrictSchoolRating: A
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Chelsea
+GeneralDescription: Chelsea is a vibrant neighborhood in New York City known for its unique culture, amenities, and lifestyle.
+
+
+City: New York City
+Neighborhood: Greenwich Village
+DistrictID: 4
+Population: 78083
+MedianAge: 31.5
+RaceDist: White:68%; Hispanic:12%; Black:22%; Asian:18%; Other:4%
+Education_HighSchool+: 80%; Bachelor+: 76%
+MedianHHIncome: $130987
+MedianHomeValue: $413368
+GrossRent_Median: $1559
+HomeownershipRate: 59%
+Crime_AnnualCounts: {Murder:9; Assault:140; Theft:1380}
+TransitStops_Bus: 93; Rail/Subway: 1
+AvgCommuteMin: 44
+SchoolRating_GreatSchools: 5.5
+DistrictSchoolRating: A
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Greenwich Village
+GeneralDescription: Greenwich Village is a vibrant neighborhood in New York City known for its unique culture, amenities, and lifestyle.
+
+
+City: New York City
+Neighborhood: Tribeca
+DistrictID: 5
+Population: 88689
+MedianAge: 34.1
+RaceDist: White:56%; Hispanic:26%; Black:9%; Asian:18%; Other:6%
+Education_HighSchool+: 81%; Bachelor+: 61%
+MedianHHIncome: $120905
+MedianHomeValue: $160917
+GrossRent_Median: $1279
+HomeownershipRate: 39%
+Crime_AnnualCounts: {Murder:1; Assault:292; Theft:847}
+TransitStops_Bus: 52; Rail/Subway: 5
+AvgCommuteMin: 49
+SchoolRating_GreatSchools: 5.5
+DistrictSchoolRating: A
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Tribeca
+GeneralDescription: Tribeca is a vibrant neighborhood in New York City known for its unique culture, amenities, and lifestyle.
+
+
+City: New York City
+Neighborhood: SoHo
+DistrictID: 6
+Population: 67354
+MedianAge: 39.5
+RaceDist: White:34%; Hispanic:22%; Black:12%; Asian:13%; Other:8%
+Education_HighSchool+: 94%; Bachelor+: 51%
+MedianHHIncome: $111722
+MedianHomeValue: $872573
+GrossRent_Median: $1840
+HomeownershipRate: 38%
+Crime_AnnualCounts: {Murder:1; Assault:181; Theft:327}
+TransitStops_Bus: 11; Rail/Subway: 17
+AvgCommuteMin: 49
+SchoolRating_GreatSchools: 6.8
+DistrictSchoolRating: D
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in SoHo
+GeneralDescription: SoHo is a vibrant neighborhood in New York City known for its unique culture, amenities, and lifestyle.
+
+
+City: New York City
+Neighborhood: Williamsburg
+DistrictID: 7
+Population: 80519
+MedianAge: 42.8
+RaceDist: White:67%; Hispanic:28%; Black:23%; Asian:10%; Other:3%
+Education_HighSchool+: 99%; Bachelor+: 50%
+MedianHHIncome: $100306
+MedianHomeValue: $460176
+GrossRent_Median: $2681
+HomeownershipRate: 74%
+Crime_AnnualCounts: {Murder:5; Assault:156; Theft:785}
+TransitStops_Bus: 100; Rail/Subway: 14
+AvgCommuteMin: 23
+SchoolRating_GreatSchools: 7.3
+DistrictSchoolRating: B
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Williamsburg
+GeneralDescription: Williamsburg is a vibrant neighborhood in New York City known for its unique culture, amenities, and lifestyle.
+
+
+City: New York City
+Neighborhood: Park Slope
+DistrictID: 8
+Population: 50682
+MedianAge: 35.8
+RaceDist: White:69%; Hispanic:38%; Black:28%; Asian:19%; Other:6%
+Education_HighSchool+: 84%; Bachelor+: 48%
+MedianHHIncome: $116096
+MedianHomeValue: $650356
+GrossRent_Median: $1165
+HomeownershipRate: 79%
+Crime_AnnualCounts: {Murder:7; Assault:108; Theft:1208}
+TransitStops_Bus: 91; Rail/Subway: 6
+AvgCommuteMin: 43
+SchoolRating_GreatSchools: 7.8
+DistrictSchoolRating: B
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Park Slope
+GeneralDescription: Park Slope is a vibrant neighborhood in New York City known for its unique culture, amenities, and lifestyle.
+
+
+City: New York City
+Neighborhood: Astoria
+DistrictID: 9
+Population: 48533
+MedianAge: 31.2
+RaceDist: White:39%; Hispanic:33%; Black:9%; Asian:11%; Other:2%
+Education_HighSchool+: 87%; Bachelor+: 72%
+MedianHHIncome: $49546
+MedianHomeValue: $668332
+GrossRent_Median: $1247
+HomeownershipRate: 50%
+Crime_AnnualCounts: {Murder:6; Assault:174; Theft:1399}
+TransitStops_Bus: 94; Rail/Subway: 16
+AvgCommuteMin: 44
+SchoolRating_GreatSchools: 8.2
+DistrictSchoolRating: D
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Astoria
+GeneralDescription: Astoria is a vibrant neighborhood in New York City known for its unique culture, amenities, and lifestyle.
+
+
+City: New York City
+Neighborhood: Flushing
+DistrictID: 10
+Population: 65053
+MedianAge: 34.6
+RaceDist: White:68%; Hispanic:24%; Black:6%; Asian:13%; Other:6%
+Education_HighSchool+: 93%; Bachelor+: 62%
+MedianHHIncome: $93818
+MedianHomeValue: $587615
+GrossRent_Median: $1926
+HomeownershipRate: 55%
+Crime_AnnualCounts: {Murder:2; Assault:210; Theft:825}
+TransitStops_Bus: 21; Rail/Subway: 4
+AvgCommuteMin: 46
+SchoolRating_GreatSchools: 6.0
+DistrictSchoolRating: A
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Flushing
+GeneralDescription: Flushing is a vibrant neighborhood in New York City known for its unique culture, amenities, and lifestyle.
+
+
+City: New York City
+Neighborhood: Long Island City
+DistrictID: 11
+Population: 45932
+MedianAge: 30.8
+RaceDist: White:38%; Hispanic:12%; Black:10%; Asian:13%; Other:5%
+Education_HighSchool+: 81%; Bachelor+: 31%
+MedianHHIncome: $119456
+MedianHomeValue: $195810
+GrossRent_Median: $1093
+HomeownershipRate: 59%
+Crime_AnnualCounts: {Murder:2; Assault:129; Theft:860}
+TransitStops_Bus: 21; Rail/Subway: 6
+AvgCommuteMin: 48
+SchoolRating_GreatSchools: 6.0
+DistrictSchoolRating: B
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Long Island City
+GeneralDescription: Long Island City is a vibrant neighborhood in New York City known for its unique culture, amenities, and lifestyle.
+
+
+City: New York City
+Neighborhood: Bushwick
+DistrictID: 12
+Population: 44520
+MedianAge: 34.6
+RaceDist: White:47%; Hispanic:21%; Black:26%; Asian:15%; Other:6%
+Education_HighSchool+: 94%; Bachelor+: 79%
+MedianHHIncome: $132579
+MedianHomeValue: $150388
+GrossRent_Median: $2477
+HomeownershipRate: 30%
+Crime_AnnualCounts: {Murder:6; Assault:257; Theft:616}
+TransitStops_Bus: 86; Rail/Subway: 16
+AvgCommuteMin: 22
+SchoolRating_GreatSchools: 6.0
+DistrictSchoolRating: B
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Bushwick
+GeneralDescription: Bushwick is a vibrant neighborhood in New York City known for its unique culture, amenities, and lifestyle.
+
+
+City: New York City
+Neighborhood: Upper West Side
+DistrictID: 13
+Population: 39162
+MedianAge: 28.5
+RaceDist: White:68%; Hispanic:29%; Black:10%; Asian:14%; Other:7%
+Education_HighSchool+: 84%; Bachelor+: 45%
+MedianHHIncome: $115355
+MedianHomeValue: $771249
+GrossRent_Median: $3251
+HomeownershipRate: 52%
+Crime_AnnualCounts: {Murder:2; Assault:299; Theft:779}
+TransitStops_Bus: 24; Rail/Subway: 18
+AvgCommuteMin: 21
+SchoolRating_GreatSchools: 6.5
+DistrictSchoolRating: A
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Upper West Side
+GeneralDescription: Upper West Side is a vibrant neighborhood in New York City known for its unique culture, amenities, and lifestyle.
+
+
+City: New York City
+Neighborhood: East Village
+DistrictID: 14
+Population: 30362
+MedianAge: 41.8
+RaceDist: White:62%; Hispanic:28%; Black:5%; Asian:16%; Other:8%
+Education_HighSchool+: 80%; Bachelor+: 63%
+MedianHHIncome: $61584
+MedianHomeValue: $219725
+GrossRent_Median: $2717
+HomeownershipRate: 24%
+Crime_AnnualCounts: {Murder:7; Assault:281; Theft:863}
+TransitStops_Bus: 51; Rail/Subway: 1
+AvgCommuteMin: 22
+SchoolRating_GreatSchools: 9.4
+DistrictSchoolRating: B
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in East Village
+GeneralDescription: East Village is a vibrant neighborhood in New York City known for its unique culture, amenities, and lifestyle.
+
+
+City: New York City
+Neighborhood: Financial District
+DistrictID: 15
+Population: 44104
+MedianAge: 29.1
+RaceDist: White:63%; Hispanic:38%; Black:30%; Asian:9%; Other:1%
+Education_HighSchool+: 86%; Bachelor+: 74%
+MedianHHIncome: $75125
+MedianHomeValue: $945685
+GrossRent_Median: $1862
+HomeownershipRate: 21%
+Crime_AnnualCounts: {Murder:9; Assault:61; Theft:815}
+TransitStops_Bus: 51; Rail/Subway: 9
+AvgCommuteMin: 44
+SchoolRating_GreatSchools: 5.9
+DistrictSchoolRating: C
+FoodSceneHighlights: Sample restaurants, cafes, and bars popular in Financial District
+GeneralDescription: Financial District is a vibrant neighborhood in New York City known for its unique culture, amenities, and lifestyle.
